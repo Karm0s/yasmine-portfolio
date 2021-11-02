@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <main class="flex flex-col items-center">
     <Navbar/>
     <section class="hero flex flex-col items-center justify-center h-screen">
       <div class="flex flex-col items-center justify-center">
         <h1 class="leading-3">I’m <strong class="font-bold">Yasmine</strong></h1>
         <p class="text-sm">I create things with my keyboard !</p>
       </div>
-      <img src="~/static/images/glasses.png" class="w-2/3 -rotate-12" alt="">
+      <img v-if="this.$mq==='sm'" src="~/static/images/glasses.png" class="w-2/3 -rotate-12" alt="">
 
       <div class="mt-5">
         <div class="text-xl hero-text">

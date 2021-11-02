@@ -1,6 +1,10 @@
 <template>
-	<nav class="w-screen flex items-center justify-center py-2">
-			<h1 class="brand text-sm">YasRch</h1>
+	<nav class="w-screen md:w-2/3 flex items-center justify-center md:justify-around py-2">
+			<a href="" class="link">My projects</a>
+			<a href="" class="link">Contact</a>
+			<h1 class="brand text-sm md:text-xl">YasRch</h1>
+			<a href="" class="link">My skills</a>
+			<a href="" class="link">About</a>
 	</nav>
 </template>
 
@@ -17,5 +21,7 @@ export default class Navbar extends Vue {
 .brand{
     font-family: 'Satoshi-Black';
 }
-
+.link{
+	@apply text-sm;
+}
 </style>
