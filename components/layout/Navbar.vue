@@ -1,10 +1,10 @@
 <template>
 	<nav class="w-screen md:w-2/3 flex items-center justify-center md:justify-around py-2">
-			<a href="" class="link">My projects</a>
-			<a href="" class="link">Contact</a>
+			<a href="" class="link" v-if="this.$mq!=='sm'">My projects</a>
+			<a href="" class="link" v-if="this.$mq!=='sm'">Contact</a>
 			<h1 class="brand text-sm md:text-xl">YasRch</h1>
-			<a href="" class="link">My skills</a>
-			<a href="" class="link">About</a>
+			<a href="" class="link" v-if="this.$mq!=='sm'">My skills</a>
+			<a href="" class="link" v-if="this.$mq!=='sm'">About</a>
 	</nav>
 </template>
 

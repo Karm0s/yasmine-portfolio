@@ -3,6 +3,7 @@
 
 html{
     font-family: 'Satoshi-Regular';
+    overflow-x: hidden;
 }
 
 .satoshi-variable{
